@@ -82,7 +82,7 @@ public class VerifyRevenueCalculator {
 	
 	@When("user click on the text field associated with the slider")
 	public void user_clicks_on_the_text_field_associated_with_the_slider() throws InterruptedException {
-	    WebElement textField = driver.findElement(By.id(":R57alklff9da:")); // Replace with actual locator
+	    WebElement textField = driver.findElement(By.id(":R57alklff9da:")); 
         textField.click();
         Thread.sleep(3000);
 	}
@@ -110,8 +110,8 @@ public class VerifyRevenueCalculator {
 	@When("select the checkboxes for CPT-99091, CPT-99453, CPT-99454, and CPT-99474 checkboxes should be selected")
 	    public void select_the_checkboxes_for_CPT_codes() throws InterruptedException {
 		 driver.findElement(By.xpath("(//input[@class='PrivateSwitchBase-input css-1m9pwf3'])[1]")).click(); 
-		 driver.findElement(By.xpath("(//input[@class='PrivateSwitchBase-input css-1m9pwf3'])[2]")).click(); //19 Replace with actual locator
-	        driver.findElement(By.xpath("(//input[@class='PrivateSwitchBase-input css-1m9pwf3'])[3]")).click();// 63// Replace with actual locator
+		 driver.findElement(By.xpath("(//input[@class='PrivateSwitchBase-input css-1m9pwf3'])[2]")).click(); //19 
+	        driver.findElement(By.xpath("(//input[@class='PrivateSwitchBase-input css-1m9pwf3'])[3]")).click();// 63
 	        driver.findElement(By.xpath("(//input[@class='PrivateSwitchBase-input css-1m9pwf3'])[8]")).click();
 	        
 	        Thread.sleep(2000);
